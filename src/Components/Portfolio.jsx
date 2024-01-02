@@ -55,8 +55,9 @@ const projectList = [
     url: "https://www.youtube.com/watch?v=MAhIyux1Ia0",
   },
   {
-    title: "MPI, OpenMP, and CUDA Parallel Programming Projects", 
-    description: "Created a variety of projects that use MPI, OpenMP, and CUDA to parallelize code. These projects include a 2D heat transfer simulation, a 2D wave simulation, and a 3D heat transfer simulation.",
+    title: "MPI, OpenMP, and CUDA Parallel Programming Projects",
+    description:
+      "Created a variety of projects that use MPI, OpenMP, and CUDA to parallelize code. These projects include a 2D heat transfer simulation, a 2D wave simulation, and a 3D heat transfer simulation.",
     url: "",
   },
 ];
