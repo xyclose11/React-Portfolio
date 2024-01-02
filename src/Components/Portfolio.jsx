@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/raspberry_pi.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Image of a rustic wooden desk with a laptop, and a raspberry pi";
 
 /**
  * Project list
@@ -31,28 +31,33 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Auction Commerce Website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Created a website for a mock auction company using Django, that inlcudes a login page, product listings, and more!",
+    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i", // Update with your project URL or GitHub project page or make a new react page that displays it
   },
   {
-    title: "Web Development for Beginners",
+    title: "Python Password Manager",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Created a password manager using Python, that allows users to store their passwords in a secure way.",
+    url: "https://github.com/xyclose11/PasswordManager",
   },
   {
-    title: "My Resume Site",
+    title: "Raspberry Pi 4 OpenWRT Router",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created a router using a Raspberry Pi 4 and OpenWRT, that allows users to connect to the internet.",
+    url: "",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Garden X",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Designed and implemented a web application that allows users to lookup a plant and get information about it. Uses Flash, SQL, Python, Javascript, and HTML/CSS. Submitted to CS50 as a final project.",
+    url: "https://www.youtube.com/watch?v=MAhIyux1Ia0",
+  },
+  {
+    title: "MPI, OpenMP, and CUDA Parallel Programming Projects", 
+    description: "Created a variety of projects that use MPI, OpenMP, and CUDA to parallelize code. These projects include a 2D heat transfer simulation, a 2D wave simulation, and a 3D heat transfer simulation.",
+    url: "",
   },
 ];
 
