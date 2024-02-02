@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://xyclose11.github.io/React-Portfolio",
+  "homepage": "https://harrisgustafson.tech/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
