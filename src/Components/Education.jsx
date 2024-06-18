@@ -8,9 +8,8 @@ const Education = () => {
       style={{ backgroundColor: "#f9f9f9", borderRadius: "5px", padding: "20px" }}
     >
       <h2 style={{ textAlign: "center", color: "#333", marginBottom: "20px" }}>Education</h2>
-      <div
+      <span
         className="education"
-        style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
       >
         <div
           style={{
@@ -24,10 +23,9 @@ const Education = () => {
           <p style={{ color: "#777" }}>B.S. Computer Science</p>
           <p style={{ color: "#777" }}>Graduating: May 2025</p>
         </div>
-      </div>
-      <div
+      </span>
+      <span
         className="education"
-        style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
       >
         <div
           style={{
@@ -41,7 +39,7 @@ const Education = () => {
           <p style={{ color: "#777" }}>M.S. Cyber Security</p>
           <p style={{ color: "#777" }}>Graduating: May 2025</p>
         </div>
-      </div>
+      </span>
     </section>
   );
 };

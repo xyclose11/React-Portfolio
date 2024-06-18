@@ -1,22 +1,6 @@
-/**
- * About component
- *
- * Space for you to describe more about yourself.
- */
-
 import React from "react";
 
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */
-import image from "../images/open_book.jpg";
+import image from "../images/leaves.jpg";
 
 const imageAltText = "Picture of an open book";
 
@@ -24,27 +8,23 @@ const imageAltText = "Picture of an open book";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a Computer Science & Cyber Security student at Valparaiso University, with plans to branch out into the field of full stack development.";
+  "As an aspiring Full-Stack Developer, I am consistently learning different technologies & implementing different aspects of Full-Stack Development, Cyber Security & Business to create a dynamic fully enveloped skillset.";
 
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
+
 const skillsList = [
-  "Web design",
-  "User experience",
+  "ASP.NET Core MVC (C#)",
+  "React",
   "Agile Development",
-  "Digital Forensics",
-  "Parallel & Distributed Computing",
+  "TypeScript(Javascript)",
+  "PostgreSQL",
+  "MongoDB",
+  "Node.js",
+  "Penetration Testing",
 ];
 
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
+
 const detailOrQuote =
-  "I am driven to find new ways to solve the problems that prevent others from accessing the tools they need to succeed.";
+  "I am constantly learning and adapting to new technologies and methodologies to ensure that I am always at the forefront of the industry.";
 const About = () => {
   return (
     <section className="padding" id="about">
