@@ -1,35 +1,12 @@
-/**
- * About component
- *
- * Space for you to describe more about yourself.
- */
-
 import React from "react";
-
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */
+import Container from "./Components";
 import image from "../images/open_book.jpg";
 
 const imageAltText = "Picture of an open book";
 
-/**
- * Sort description that expands on your title on the Home component.
- */
 const description =
   "I'm a Computer Science & Cyber Security student at Valparaiso University, with plans to branch out into the field of full stack development.";
 
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
 const skillsList = [
   "Web design",
   "User experience",
@@ -38,11 +15,7 @@ const skillsList = [
   "Parallel & Distributed Computing",
 ];
 
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
+
 const detailOrQuote =
   "I am driven to find new ways to solve the problems that prevent others from accessing the tools they need to succeed.";
 const About = () => {
@@ -76,6 +49,12 @@ const About = () => {
         </ul>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <Container size="medium">
+          <div style={{ backgroundColor: "pastelgreen", padding: "0rem" }}>
+            <h3>Description Container</h3>
+            <p>This is a description container with a pastel green background.</p>
+          </div>
+        </Container>
       </div>
     </section>
   );
