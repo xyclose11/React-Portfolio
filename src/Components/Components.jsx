@@ -5,8 +5,10 @@ const Container = ({ size, children }) => {
   const containerStyle = {
     borderRadius: "10px",
     padding: "10px",
-    backgroundColor: "#96e8b3",
-    width: size === "small" ? "200px" : size === "medium" ? "400px" : "600px",
+    backgroundColor: "#2b3773",
+    justifyContent: "center",
+    alignItems: "center",
+    width: size === "small" ? "200px" : size === "medium" ? "325px" : "600px",
 };
 
   return <div style={containerStyle}>{children}</div>;

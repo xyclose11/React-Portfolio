@@ -12,8 +12,8 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
-  background: rgb(39,167,115);
-  background: linear-gradient(153deg, rgba(39,167,115,1) 0%, rgba(78,86,126,1) 94%);
+  background: rgb(119,137,230);
+  background: linear-gradient(153deg, rgba(119,137,230,1) 5%, rgba(118,252,197,1) 100%);
 }
 
 html {
@@ -60,10 +60,11 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 5rem;
   font-weight: 400;
   margin: 0;
-  padding-top: 1rem;
+  line-height: 0.8;
 }
 
 h3 {
