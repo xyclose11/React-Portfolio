@@ -12,6 +12,8 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  background: rgb(39,167,115);
+  background: linear-gradient(153deg, rgba(39,167,115,1) 0%, rgba(78,86,126,1) 94%);
 }
 
 html {
