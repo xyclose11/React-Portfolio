@@ -62,34 +62,38 @@ const Education = () => {
 
       <div style={{ marginTop: "30px" }}>
         <h2 style={{ textAlign: "center", color: "#333", marginBottom: "20px" }}>
-          External Courses
+          External Learning
         </h2>
 
         <div className="education" style={{ display: "flex", justifyContent: "space-evenly" }}>
-          <Container size={"small"} backgroundImage={"linear-gradient(to right, #642b73, #c6426e)"}>
-            <h3 style={{ color: "white" }}>University of Illinois Urbana-Champaign</h3>
-            <p style={{ color: "white" }}>B.S. Computer Science</p>
-            <p style={{ color: "white" }}>Graduated: May 2021</p>
+          <Container size={"small"} 
+          backgroundImage={"linear-gradient(to right, #A51C30, #c6426e)"}
+          webLink={"https://cs50.harvard.edu/college/2024/fall/"}
+          header={"Harvard University CS50"}
+          body={"Introduction to Computer Science"}
+          buttonColor={"#c6426e"}
+          >
+            <p style={{ color: "white", fontWeight: "500" }}>Completed: May 2023</p>
           </Container>
-          <Container size={"small"} backgroundImage={"linear-gradient(to right, #642b73, #c6426e)"}>
-            <h3 style={{ color: "white" }}>University of Illinois Urbana-Champaign</h3>
-            <p style={{ color: "white" }}>B.S. Computer Science</p>
-            <p style={{ color: "white" }}>Graduated: May 2021</p>
+          <Container size={"medium"} backgroundImage={"linear-gradient(to right, #A51C30, #c6426e)"}
+            webLink={"https://cs50.harvard.edu/web/2020/"}
+            header={"Harvard University CS50W"}
+            body={"Web Programming with Python and JavaScript"}
+            buttonColor={"#c6426e"}
+          >
+            <p style={{ color: "white", fontWeight: "500" }}>Completed: December 2023</p>
           </Container>
-          <Container size={"small"} backgroundImage={"linear-gradient(to right, #642b73, #c6426e)"}>
-            <h3 style={{ color: "white" }}>University of Illinois Urbana-Champaign</h3>
-            <p style={{ color: "white" }}>B.S. Computer Science</p>
-            <p style={{ color: "white" }}>Graduated: May 2021</p>
-          </Container>
-          <Container size={"small"} backgroundImage={"linear-gradient(to right, #642b73, #c6426e)"}>
-            <h3 style={{ color: "white" }}>University of Illinois Urbana-Champaign</h3>
-            <p style={{ color: "white" }}>B.S. Computer Science</p>
-            <p style={{ color: "white" }}>Graduated: May 2021</p>
-          </Container>
-          <Container size={"small"} backgroundImage={"linear-gradient(to right, #642b73, #c6426e)"}>
-            <h3 style={{ color: "white" }}>University of Illinois Urbana-Champaign</h3>
-            <p style={{ color: "white" }}>B.S. Computer Science</p>
-            <p style={{ color: "white" }}>Graduated: May 2021</p>
+          <Container size={""} backgroundImage={"linear-gradient(to right, #642b73, #c6426e)"}
+          header={"Miscellaneous"}
+          body={"I won't bother anyone with the details, as I am constantly learning new things. Here are some of my more recent interests:"}
+            
+          >
+            <ul style={{ color: "white", fontWeight: "500", listStyleType: "none", paddingLeft: "0" }}>
+              <li><h3>Rust</h3></li>
+              <li><h3>Making an (Interpreter/Compiler) with GoLang </h3></li>
+              <li><h3>ASP.NET (c#) Full Stack Application (w/Postgresql</h3></li>
+            </ul>
+
           </Container>
         </div>
       </div>

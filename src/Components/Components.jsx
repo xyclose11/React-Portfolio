@@ -26,7 +26,7 @@ const Container = ({ size, children, backgroundColor, backgroundImage, webLink, 
         {children}
         {webLink && (
           <a href={webLink} style={{ display: "inline-block", padding: "10px 15px", backgroundColor: `${buttonColor}`, color: "white", textDecoration: "none", borderRadius: "5px", marginTop: "10px" }} target="_blank" rel="noopener noreferrer">
-            Visit: {webLink.split("www.")[1].split(".")[0]}
+            More Info
           </a>
         )}
       </footer>
