@@ -20,16 +20,14 @@ const Container = ({ size, children, backgroundColor, backgroundImage, webLink, 
 
   return (
     <div style={containerStyle}>
-
-      <h3 style={{ color: "white" }}>{header}</h3>
-      <p style={{ color: "white" }}>{body}</p>
-      {children}
-
+      <h3 style={{ color: "white", fontSize: "1.5rem", fontWeight: "500" }}>{header}</h3>
+      <p style={{ color: "white", fontSize: "1.2rem", fontWeight: "500" }}>{body}</p>
       <footer style={{ color: "white", alignSelf: "center", marginTop: "auto" }}>
+        {children}
         {webLink && (
-        <a href={webLink} style={{ display: "inline-block", padding: "10px 15px", backgroundColor: `${buttonColor}`, color: "white", textDecoration: "none", borderRadius: "5px", marginTop: "10px" }} target="_blank" rel="noopener noreferrer">
-          Visit: {webLink.split("www.")[1].split(".")[0]}      
-        </a>
+          <a href={webLink} style={{ display: "inline-block", padding: "10px 15px", backgroundColor: `${buttonColor}`, color: "white", textDecoration: "none", borderRadius: "5px", marginTop: "10px" }} target="_blank" rel="noopener noreferrer">
+            Visit: {webLink.split("www.")[1].split(".")[0]}
+          </a>
         )}
       </footer>
     </div>
