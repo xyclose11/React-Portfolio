@@ -3,10 +3,14 @@ import PropTypes from 'prop-types';
 
 const Container = ({ size, children, backgroundColor, backgroundImage, webLink, header, body, buttonColor }) => {
   const containerStyle = {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    height: "100%",
+    margin: "10px",
     borderRadius: "10px",
     padding: "10px",
     backgroundColor: backgroundColor || "#2b3773",
-    justifyContent: "center",
     backgroundImage: backgroundImage || "none",
     alignItems: "center",
     "text-align": "center",
@@ -21,7 +25,7 @@ const Container = ({ size, children, backgroundColor, backgroundImage, webLink, 
       <p style={{ color: "white" }}>{body}</p>
       {children}
 
-      <footer style={{ color: "white" }}>
+      <footer style={{ color: "white", alignSelf: "center", marginTop: "auto" }}>
         {webLink && (
         <a href={webLink} style={{ display: "inline-block", padding: "10px 15px", backgroundColor: `${buttonColor}`, color: "white", textDecoration: "none", borderRadius: "5px", marginTop: "10px" }} target="_blank" rel="noopener noreferrer">
           Visit: {webLink.split("www.")[1].split(".")[0]}      
