@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectShowcase from "./ProjectShowcase";
+import Container from "./Components";
 
 const projectList = [
   {
@@ -62,7 +63,9 @@ const Portfolio = () => {
         learnings="This project was my first time working in a team, which lead to a lot of unknown experiences and challenges. I learned how to work with others
         and how to communicate effectively."
         ghLink={"https://github.com/xyclose11/cashmoneycitations"}
-      />
+      >
+        <iframe width="600" height="350" src="https://www.youtube.com/embed/cPxhlyVQGtA" title="Citation Clone Project (CMC) | Next.js, React, MongoDB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </ProjectShowcase>
 
       <ProjectShowcase 
       title="Auction Commerce Website"
@@ -79,7 +82,7 @@ const Portfolio = () => {
       learnings="Learned how to use Flask to create a full stack web application."
       ghLink={"https://www.youtube.com/watch?v=MAhIyux1Ia0"}
       >
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/MAhIyux1Ia0?si=--DtyhBuEx1AxrJN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="600" height="350" src="https://www.youtube.com/embed/MAhIyux1Ia0?si=--DtyhBuEx1AxrJN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </ProjectShowcase>
 
       <div style={{ background: "rgba(255,255,255,0.75)", boxShadow: "20px 20px 500px rgba(0,0,0,0.1)" }}>

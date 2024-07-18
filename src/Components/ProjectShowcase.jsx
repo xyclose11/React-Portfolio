@@ -21,7 +21,6 @@ const ProjectShowcase = ({ title, description, technologies, learnings, screensh
       </div>
       <div style={{ flex: 1, padding: '10px' }}>
         {/* Placeholder for slideshow. Implement or integrate a slideshow component here */}
-        <div>Slideshow Placeholder</div>
         {children}
         <footer style={{ color: "white", alignSelf: "center", marginTop: "auto" }}>
         {ghLink && (
