@@ -28966,6 +28966,8 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _projectShowcase = require("./ProjectShowcase");
 var _projectShowcaseDefault = parcelHelpers.interopDefault(_projectShowcase);
+var _components = require("./Components");
+var _componentsDefault = parcelHelpers.interopDefault(_components);
 const projectList = [
     {
         title: "Portfolio Website",
@@ -29011,12 +29013,12 @@ const Portfolio = ()=>{
                     children: "Projects"
                 }, void 0, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 43,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 42,
+                lineNumber: 43,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
@@ -29036,7 +29038,7 @@ const Portfolio = ()=>{
                 ghLink: "https://github.com/xyclose11/Notify"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
@@ -29052,10 +29054,24 @@ const Portfolio = ()=>{
                     "TypeScript"
                 ],
                 learnings: "This project was my first time working in a team, which lead to a lot of unknown experiences and challenges. I learned how to work with others and how to communicate effectively.",
-                ghLink: "https://github.com/xyclose11/cashmoneycitations"
+                ghLink: "https://github.com/xyclose11/cashmoneycitations",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                    width: "600",
+                    height: "350",
+                    src: "https://www.youtube.com/embed/cPxhlyVQGtA",
+                    title: "Citation Clone Project (CMC) | Next.js, React, MongoDB",
+                    frameborder: "0",
+                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+                    referrerpolicy: "strict-origin-when-cross-origin",
+                    allowfullscreen: true
+                }, void 0, false, {
+                    fileName: "src/Components/Portfolio.jsx",
+                    lineNumber: 67,
+                    columnNumber: 9
+                }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 56,
+                lineNumber: 57,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
@@ -29071,7 +29087,7 @@ const Portfolio = ()=>{
                 ghLink: "https://github.com/xyclose11/cautious-eureka"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 67,
+                lineNumber: 70,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
@@ -29085,10 +29101,24 @@ const Portfolio = ()=>{
                 ],
                 description: "Designed and implemented a web application that allows users to lookup a plant and get information about it. Uses Flash, SQL, Python, Javascript, and HTML/CSS. Submitted to CS50 as a final project.",
                 learnings: "Learned how to use Flask to create a full stack web application.",
-                ghLink: "https://www.youtube.com/watch?v=MAhIyux1Ia0"
+                ghLink: "https://www.youtube.com/watch?v=MAhIyux1Ia0",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                    width: "600",
+                    height: "350",
+                    src: "https://www.youtube.com/embed/MAhIyux1Ia0?si=--DtyhBuEx1AxrJN",
+                    title: "YouTube video player",
+                    frameborder: "0",
+                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+                    referrerpolicy: "strict-origin-when-cross-origin",
+                    allowfullscreen: true
+                }, void 0, false, {
+                    fileName: "src/Components/Portfolio.jsx",
+                    lineNumber: 85,
+                    columnNumber: 9
+                }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 75,
+                lineNumber: 78,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29104,12 +29134,12 @@ const Portfolio = ()=>{
                     children: "Smaller Projects/In Progress"
                 }, void 0, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 84,
+                    lineNumber: 89,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 83,
+                lineNumber: 88,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29138,12 +29168,12 @@ const Portfolio = ()=>{
                                         children: project.title
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 92,
+                                        lineNumber: 97,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 91,
+                                    lineNumber: 96,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29151,29 +29181,29 @@ const Portfolio = ()=>{
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 94,
+                                    lineNumber: 99,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 90,
+                            lineNumber: 95,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 88,
+                    lineNumber: 93,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 87,
+                lineNumber: 92,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 39,
+        lineNumber: 40,
         columnNumber: 5
     }, undefined);
 };
@@ -29187,7 +29217,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./ProjectShowcase":"7rZla"}],"7rZla":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./ProjectShowcase":"7rZla","./Components":"2XTfw"}],"7rZla":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$470d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -29204,7 +29234,7 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _components = require("./Components");
 var _componentsDefault = parcelHelpers.interopDefault(_components);
 // Import slideshow library or write custom CSS/JS for slideshow if needed
-const ProjectShowcase = ({ title , description , technologies , learnings , screenshots , ghLink  })=>{
+const ProjectShowcase = ({ title , description , technologies , learnings , screenshots , children , ghLink  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         style: {
             display: "flex",
@@ -29280,13 +29310,7 @@ const ProjectShowcase = ({ title , description , technologies , learnings , scre
                     padding: "10px"
                 },
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        children: "Slideshow Placeholder"
-                    }, void 0, false, {
-                        fileName: "src/Components/ProjectShowcase.jsx",
-                        lineNumber: 24,
-                        columnNumber: 9
-                    }, undefined),
+                    children,
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                         style: {
                             color: "white",
@@ -29337,7 +29361,9 @@ ProjectShowcase.propTypes = {
     technologies: (0, _propTypesDefault.default).arrayOf((0, _propTypesDefault.default).string).isRequired,
     learnings: (0, _propTypesDefault.default).string.isRequired,
     screenshots: (0, _propTypesDefault.default).arrayOf((0, _propTypesDefault.default).string),
-    ghLink: (0, _propTypesDefault.default).string
+    ghLink: (0, _propTypesDefault.default).string,
+    ytLink: (0, _propTypesDefault.default).instanceOf(Object),
+    children: (0, _propTypesDefault.default).node
 };
 exports.default = ProjectShowcase;
 var _c;
