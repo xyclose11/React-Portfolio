@@ -78,7 +78,9 @@ const Portfolio = () => {
       description="Designed and implemented a web application that allows users to lookup a plant and get information about it. Uses Flash, SQL, Python, Javascript, and HTML/CSS. Submitted to CS50 as a final project."
       learnings="Learned how to use Flask to create a full stack web application."
       ghLink={"https://www.youtube.com/watch?v=MAhIyux1Ia0"}
-      />
+      >
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MAhIyux1Ia0?si=--DtyhBuEx1AxrJN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </ProjectShowcase>
 
       <div style={{ background: "rgba(255,255,255,0.75)", boxShadow: "20px 20px 500px rgba(0,0,0,0.1)" }}>
         <h2 style={{ textAlign: "center", paddingBottom: "20px" }}>Smaller Projects/In Progress</h2>
