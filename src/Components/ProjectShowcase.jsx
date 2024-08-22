@@ -3,21 +3,19 @@ import PropTypes from 'prop-types';
 import Container from './Components';
 // Import slideshow library or write custom CSS/JS for slideshow if needed
 
-const ProjectShowcase = ({ title, description, technologies, learnings, screenshots, children, ghLink }) => {
+const ProjectShowcase = ({ title, description, technologies, screenshots, children, ghLink }) => {
   return (
     <div style={{ display: 'flex', margin: '20px', padding: '10px' }}>
       <div style={{ flex: 1, padding: '10px', backgroundColor:"white", borderRadius: "10px" }}>
 
         <h2>{title}</h2>
         <p>{description}</p>
-        <h3>Technologies Used:</h3>
+        <h3 style={{ margin: 0.5}}>Technologies Used:</h3>
         <ul>
           {technologies.map((tech, index) => (
             <li key={index}>{tech}</li>
           ))}
         </ul>
-        <h3>What I Learned:</h3>
-        <p>{learnings}</p>
       </div>
       <div style={{ flex: 1, padding: '10px' }}>
         {/* Placeholder for slideshow. Implement or integrate a slideshow component here */}

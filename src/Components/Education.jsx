@@ -83,18 +83,6 @@ const Education = () => {
           >
             <p style={{ color: "white", fontWeight: "500" }}>Completed: December 2023</p>
           </Container>
-          <Container size={""} backgroundImage={"linear-gradient(to right, #642b73, #c6426e)"}
-          header={"Miscellaneous"}
-          body={"I won't bother anyone with the details, as I am constantly learning new things. Here are some of my more recent interests:"}
-            
-          >
-            <ul style={{ color: "white", fontWeight: "500", listStyleType: "none", paddingLeft: "0" }}>
-              <li><h3>Rust</h3></li>
-              <li><h3>Making an (Interpreter/Compiler) with GoLang </h3></li>
-              <li><h3>ASP.NET (c#) Full Stack Application (w/Postgresql</h3></li>
-            </ul>
-
-          </Container>
         </div>
       </div>
     </section>
