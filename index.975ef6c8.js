@@ -27179,15 +27179,15 @@ const About = ()=>{
             style: {
                 display: "flex",
                 justifyContent: "center",
-                alignItems: "center"
+                alignItems: "flex-start"
             },
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     style: {
                         backgroundColor: "white",
-                        width: "38%",
+                        width: "30%",
                         padding: "1rem",
-                        marginLeft: "10rem",
+                        margin: "1rem",
                         textAlign: "center",
                         borderRadius: "10px"
                     },
@@ -27203,7 +27203,7 @@ const About = ()=>{
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "I am a self driven individual who is passionate about problem solving especially in the computing field as no two problems are alike (most of the time). I am constantly looking for new and emerging technologies to experement with and learn. While I do believe reinventing the wheel may not be the best use of my, I do believe that there is a lot of benefit in understanding how the wheel works."
+                            children: "I am a self driven individual who is passionate about problem solving in the computing field as no two problems are alike (most of the time). I am constantly looking for new and emerging technologies to experement with and learn. While I do believe reinventing the wheel may not be the best use of time, I do believe that there is a lot of benefit understanding how the wheel works."
                         }, void 0, false, {
                             fileName: "src/Components/About.jsx",
                             lineNumber: 18,
@@ -27218,7 +27218,7 @@ const About = ()=>{
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     style: {
                         backgroundColor: "white",
-                        width: "33%",
+                        width: "30%",
                         padding: "1rem",
                         margin: "1rem",
                         textAlign: "center",
@@ -27232,166 +27232,331 @@ const About = ()=>{
                             children: "I have experience with: "
                         }, void 0, false, {
                             fileName: "src/Components/About.jsx",
-                            lineNumber: 34,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             style: {
-                                listStyle: "none"
+                                display: "flex",
+                                justifyContent: "space-between"
                             },
                             children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "TypeScript"
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.jsx",
-                                    lineNumber: 36,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "C# (ASP.NET Core)"
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.jsx",
-                                    lineNumber: 37,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "Java"
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    style: {
+                                        flex: 1,
+                                        marginRight: "1rem"
+                                    },
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                        style: {
+                                            listStyle: "none",
+                                            padding: 0,
+                                            margin: 0
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "TypeScript (JavaScript)"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 40,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "C# (ASP.NET Core, MVC & Blazor)"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 43,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "Java (Spring Boot, Swing)"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 46,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "MongoDB (Mongoose)"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 50,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "Python (Django, Flask)"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 53,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "Git"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 56,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/Components/About.jsx",
+                                        lineNumber: 39,
+                                        columnNumber: 15
+                                    }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/About.jsx",
                                     lineNumber: 38,
                                     columnNumber: 13
                                 }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "PostgreSQL"
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    style: {
+                                        flex: 1,
+                                        marginLeft: "1rem"
+                                    },
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                        style: {
+                                            listStyle: "none",
+                                            padding: 0,
+                                            margin: 0
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "SQL (Postgresql, SQL Server)"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 61,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "React (Next.js)"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 64,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "Node.js (Express)"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 67,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "Rust"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 70,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "Neovim"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 71,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "C"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 72,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "Go"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 73,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "Linux"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 74,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                style: {
+                                                    padding: "0.5rem 0",
+                                                    borderBottom: "1px solid #ddd"
+                                                },
+                                                children: "HTML/CSS"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/About.jsx",
+                                                lineNumber: 75,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/Components/About.jsx",
+                                        lineNumber: 60,
+                                        columnNumber: 15
+                                    }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/About.jsx",
-                                    lineNumber: 39,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "MongoDB"
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.jsx",
-                                    lineNumber: 40,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "Python"
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.jsx",
-                                    lineNumber: 41,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "HTML"
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.jsx",
-                                    lineNumber: 42,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "CSS"
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.jsx",
-                                    lineNumber: 43,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "Git"
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.jsx",
-                                    lineNumber: 44,
+                                    lineNumber: 59,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/Components/About.jsx",
-                            lineNumber: 35,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/About.jsx",
-                    lineNumber: 24,
+                    lineNumber: 26,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     style: {
                         backgroundColor: "white",
-                        width: "20%",
+                        width: "30%",
                         padding: "1rem",
-                        marginRight: "10rem",
+                        margin: "1rem",
                         textAlign: "center",
                         borderRadius: "10px"
                     },
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                             style: {
-                                fontSize: "40px"
+                                fontSize: "40px",
+                                marginBottom: "1rem"
                             },
                             children: "Interests"
                         }, void 0, false, {
                             fileName: "src/Components/About.jsx",
-                            lineNumber: 57,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                             style: {
-                                listStyle: "none"
+                                listStyle: "none",
+                                padding: 0,
+                                margin: 0
                             },
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    style: {
+                                        padding: "0.5rem 0",
+                                        borderBottom: "1px solid #ddd"
+                                    },
                                     children: "Rust"
                                 }, void 0, false, {
                                     fileName: "src/Components/About.jsx",
-                                    lineNumber: 59,
+                                    lineNumber: 92,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    style: {
+                                        padding: "0.5rem 0",
+                                        borderBottom: "1px solid #ddd"
+                                    },
                                     children: "Full Stack Development"
                                 }, void 0, false, {
                                     fileName: "src/Components/About.jsx",
-                                    lineNumber: 60,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "Gardening"
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.jsx",
-                                    lineNumber: 61,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    style: {
+                                        padding: "0.5rem 0",
+                                        borderBottom: "1px solid #ddd"
+                                    },
                                     children: "Parallel Computing"
                                 }, void 0, false, {
                                     fileName: "src/Components/About.jsx",
-                                    lineNumber: 62,
+                                    lineNumber: 96,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "Algorithms"
+                                    style: {
+                                        padding: "0.5rem 0",
+                                        borderBottom: "1px solid #ddd"
+                                    },
+                                    children: "Data Structures & Algorithms"
                                 }, void 0, false, {
                                     fileName: "src/Components/About.jsx",
-                                    lineNumber: 63,
+                                    lineNumber: 99,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    style: {
+                                        padding: "0.5rem 0",
+                                        borderBottom: "1px solid #ddd"
+                                    },
                                     children: "Philosophy"
                                 }, void 0, false, {
                                     fileName: "src/Components/About.jsx",
-                                    lineNumber: 64,
+                                    lineNumber: 102,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/Components/About.jsx",
-                            lineNumber: 58,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/About.jsx",
-                    lineNumber: 47,
+                    lineNumber: 80,
                     columnNumber: 9
                 }, undefined)
             ]
@@ -28828,7 +28993,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components":"2XTfw"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","./Components":"2XTfw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"2XTfw":[function(require,module,exports) {
@@ -28971,12 +29136,12 @@ var _componentsDefault = parcelHelpers.interopDefault(_components);
 const projectList = [
     {
         title: "Portfolio Website",
-        description: "Created a portfolio website using React, that showcases my projects and skills.",
+        description: "Created a portfolio website using React, to showcase my projects and skills.",
         url: "https://github.com/xyclose11/React-Portfolio"
     },
     {
         title: "Python Password Manager",
-        description: "Created a password manager using Python, that allows users to store their passwords in a secure way.",
+        description: "Created a CLI password manager using Python, that allows users to store their passwords in a secure way.",
         url: "https://github.com/xyclose11/PasswordManager"
     },
     {
@@ -28986,7 +29151,7 @@ const projectList = [
     },
     {
         title: "MPI, OpenMP, and CUDA Parallel Programming Projects",
-        description: "Created a variety of projects that use MPI, OpenMP, and CUDA to parallelize code. These projects include a 2D heat transfer simulation, a 2D wave simulation, and a 3D heat transfer simulation.",
+        description: "Created a variety of projects that use MPI, OpenMP, and CUDA to parallelize code for a course at Valparaiso University.",
         url: ""
     },
     {
@@ -29024,7 +29189,6 @@ const Portfolio = ()=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
                 title: "Note-ify",
                 description: "A note taking app that allows users to create, edit, and delete notes. Also implemented sorting, filtering, tagging, grouping, user auth and searching functionality.",
-                learnings: "Since this was my first project with ASP.NET Core, I wanted to focus more on the backend and less on the frontend, since I already have a decent chunk of frontend (TypeScript) experience.",
                 technologies: [
                     "ASP.NET Core",
                     "C#",
@@ -29043,7 +29207,7 @@ const Portfolio = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
                 title: "Cash Money Citations",
-                description: "This is a project for CS 490: Full Stack Development at Valparaiso University. The result of this project is a website that can handle citations in multiple formats. For a comparison of what this web application is supposed to resemble, please look at Zotero, Mendeley, and/or OneNote. This project was completed in 15 weeks in a group of 4 students. I was responsible for the main citation generation process, the bulk of user authentication, the parsing of the citation data, BibTex error handling, and more. ",
+                description: "This was a project for a Full Stack Development course at Valparaiso University. The result of this project is a website that can handle citations in multiple formats. This project was completed in 15 weeks in a group of 4 students. I was responsible for the citation generation process, user authentication, the parsing of the citation data, BibTex error handling, and more. ",
                 technologies: [
                     "React",
                     "Node.js",
@@ -29053,25 +29217,10 @@ const Portfolio = ()=>{
                     "CSS",
                     "TypeScript"
                 ],
-                learnings: "This project was my first time working in a team, which lead to a lot of unknown experiences and challenges. I learned how to work with others and how to communicate effectively.",
-                ghLink: "https://github.com/xyclose11/cashmoneycitations",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                    width: "600",
-                    height: "350",
-                    src: "https://www.youtube.com/embed/cPxhlyVQGtA",
-                    title: "Citation Clone Project (CMC) | Next.js, React, MongoDB",
-                    frameborder: "0",
-                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
-                    referrerpolicy: "strict-origin-when-cross-origin",
-                    allowfullscreen: true
-                }, void 0, false, {
-                    fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 67,
-                    columnNumber: 9
-                }, undefined)
+                ghLink: "https://github.com/xyclose11/cashmoneycitations"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 57,
+                lineNumber: 55,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
@@ -29082,12 +29231,11 @@ const Portfolio = ()=>{
                     "CSS",
                     "JavaScript"
                 ],
-                description: "Created a website for a mock auction company using Django, that inlcudes a login page, product listings, and more!",
-                learnings: "Learned how to use Django to create a full stack web application.",
+                description: "Created a website for a mock auction company using Django, that inlcudes a login page, product listings, and more.",
                 ghLink: "https://github.com/xyclose11/cautious-eureka"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 70,
+                lineNumber: 65,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
@@ -29100,25 +29248,10 @@ const Portfolio = ()=>{
                     "HTML/CSS"
                 ],
                 description: "Designed and implemented a web application that allows users to lookup a plant and get information about it. Uses Flash, SQL, Python, Javascript, and HTML/CSS. Submitted to CS50 as a final project.",
-                learnings: "Learned how to use Flask to create a full stack web application.",
-                ghLink: "https://www.youtube.com/watch?v=MAhIyux1Ia0",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                    width: "600",
-                    height: "350",
-                    src: "https://www.youtube.com/embed/MAhIyux1Ia0?si=--DtyhBuEx1AxrJN",
-                    title: "YouTube video player",
-                    frameborder: "0",
-                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
-                    referrerpolicy: "strict-origin-when-cross-origin",
-                    allowfullscreen: true
-                }, void 0, false, {
-                    fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 85,
-                    columnNumber: 9
-                }, undefined)
+                ghLink: "https://www.youtube.com/watch?v=MAhIyux1Ia0"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 78,
+                lineNumber: 72,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29134,12 +29267,12 @@ const Portfolio = ()=>{
                     children: "Smaller Projects/In Progress"
                 }, void 0, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 89,
+                    lineNumber: 81,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 88,
+                lineNumber: 80,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29153,7 +29286,7 @@ const Portfolio = ()=>{
                     children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "box",
                             style: {
-                                backgroundColor: "white",
+                                backgroundColor: "#f5f5f5",
                                 boxShadow: "0 0 5px rgba(0,0,0,0.1)"
                             },
                             children: [
@@ -29168,12 +29301,12 @@ const Portfolio = ()=>{
                                         children: project.title
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 97,
+                                        lineNumber: 89,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 96,
+                                    lineNumber: 88,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29181,23 +29314,23 @@ const Portfolio = ()=>{
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 99,
+                                    lineNumber: 91,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 95,
+                            lineNumber: 87,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 93,
+                    lineNumber: 85,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 92,
+                lineNumber: 84,
                 columnNumber: 7
             }, undefined)
         ]
@@ -29217,7 +29350,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./ProjectShowcase":"7rZla","./Components":"2XTfw"}],"7rZla":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./ProjectShowcase":"7rZla","./Components":"2XTfw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7rZla":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$470d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -29234,7 +29367,7 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _components = require("./Components");
 var _componentsDefault = parcelHelpers.interopDefault(_components);
 // Import slideshow library or write custom CSS/JS for slideshow if needed
-const ProjectShowcase = ({ title , description , technologies , learnings , screenshots , children , ghLink  })=>{
+const ProjectShowcase = ({ title , description , technologies , screenshots , children , ghLink  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         style: {
             display: "flex",
@@ -29265,6 +29398,9 @@ const ProjectShowcase = ({ title , description , technologies , learnings , scre
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        style: {
+                            margin: 0.5
+                        },
                         children: "Technologies Used:"
                     }, void 0, false, {
                         fileName: "src/Components/ProjectShowcase.jsx",
@@ -29282,20 +29418,6 @@ const ProjectShowcase = ({ title , description , technologies , learnings , scre
                     }, void 0, false, {
                         fileName: "src/Components/ProjectShowcase.jsx",
                         lineNumber: 14,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                        children: "What I Learned:"
-                    }, void 0, false, {
-                        fileName: "src/Components/ProjectShowcase.jsx",
-                        lineNumber: 19,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: learnings
-                    }, void 0, false, {
-                        fileName: "src/Components/ProjectShowcase.jsx",
-                        lineNumber: 20,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -29333,18 +29455,18 @@ const ProjectShowcase = ({ title , description , technologies , learnings , scre
                             children: "More Info"
                         }, void 0, false, {
                             fileName: "src/Components/ProjectShowcase.jsx",
-                            lineNumber: 27,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/ProjectShowcase.jsx",
-                        lineNumber: 25,
+                        lineNumber: 23,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/ProjectShowcase.jsx",
-                lineNumber: 22,
+                lineNumber: 20,
                 columnNumber: 7
             }, undefined)
         ]
@@ -29563,69 +29685,6 @@ const Education = ()=>{
                                 fileName: "src/Components/Education.jsx",
                                 lineNumber: 78,
                                 columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _componentsDefault.default), {
-                                size: "",
-                                backgroundImage: "linear-gradient(to right, #642b73, #c6426e)",
-                                header: "Miscellaneous",
-                                body: "I won't bother anyone with the details, as I am constantly learning new things. Here are some of my more recent interests:",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                    style: {
-                                        color: "white",
-                                        fontWeight: "500",
-                                        listStyleType: "none",
-                                        paddingLeft: "0"
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                children: "Rust"
-                                            }, void 0, false, {
-                                                fileName: "src/Components/Education.jsx",
-                                                lineNumber: 92,
-                                                columnNumber: 19
-                                            }, undefined)
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Education.jsx",
-                                            lineNumber: 92,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                children: "Making an (Interpreter/Compiler) with GoLang "
-                                            }, void 0, false, {
-                                                fileName: "src/Components/Education.jsx",
-                                                lineNumber: 93,
-                                                columnNumber: 19
-                                            }, undefined)
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Education.jsx",
-                                            lineNumber: 93,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                children: "ASP.NET (c#) Full Stack Application (w/Postgresql"
-                                            }, void 0, false, {
-                                                fileName: "src/Components/Education.jsx",
-                                                lineNumber: 94,
-                                                columnNumber: 19
-                                            }, undefined)
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Education.jsx",
-                                            lineNumber: 94,
-                                            columnNumber: 15
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 91,
-                                    columnNumber: 13
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/Components/Education.jsx",
-                                lineNumber: 86,
-                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
@@ -29656,6 +29715,6 @@ $RefreshReg$(_c, "Education");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components":"2XTfw"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components":"2XTfw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
 //# sourceMappingURL=index.975ef6c8.js.map
