@@ -8,13 +8,6 @@ import React from "react";
 
 const Header = () => {
   return (
-    // <nav>
-    //   <ul>
-    //     <li><a href="#hero">Home</a></li>
-    //     <li><a href="#projects">Projects</a></li>
-    //     <li><a href="#contact">Contact</a></li>
-    //   </ul>
-    // </nav>
     <nav
       style={{
         position: "fixed",

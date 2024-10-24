@@ -1,0 +1,50 @@
+.project-showcase {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .project-details {
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .project-details ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    display: flex; /* Use Flexbox to display list items in a row */
+    flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+  }
+  
+  .project-details li {
+    margin: 5px 10px; /* Add some spacing between list items */
+  }
+  
+
+  .project-details h3 {
+    margin: 0.5em 0;
+  }
+  
+  .project-slideshow {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .project-footer {
+    color: white;
+    align-self: center;
+    margin-top: auto;
+  }
+  
+  .project-footer a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }

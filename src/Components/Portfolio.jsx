@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectShowcase from "./ProjectShowcase";
-import Container from "./Components";
 
 const projectList = [
   {
@@ -40,10 +39,32 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
 
 
-      <div style={{ background: "rgba(255,255,255,0.75)", boxShadow: "20px 20px 500px rgba(0,0,0,0.1)" }}>
-        <h2 style={{ textAlign: "center", paddingBottom: "20px" }}>Projects</h2>
-      </div>
+      <h2 style={{ textAlign: "center", paddingBottom: "20px" }}>Projects</h2>
 
+      <ProjectShowcase
+        title="Melin"
+        description="An academic reference management applcaiton that allows users to create, edit, and delete references. Implemented PDF, and JSON parsing, alongside a custom barcode implementation that allows users to automatically scan a barcode and upload the reference data, using the mobile application. Also implemented sorting, filtering, tagging, grouping, user auth and searching functionality."
+        technologies={["ASP.NET Core", "C#", "Entity Framework Core", "PostgreSQL", "React.js", "TypeScript", "Jenkins", "HTML", "CSS", "Shadcn", "Docker", "JWT", "Swagger", "XUnit", "React Native", "Nginx"]}
+        ghLink={"https://github.com/xyclose11/Melin"}
+      />
+
+      <ProjectShowcase
+        title="Pain(t)"
+        description="My take on Microsoft paint. Which allows users to draw, erase, and save their drawings, alongside much more. This project was completed in 7 weeks for CS250: Object Oriented Programming at Valparaiso University."
+        technologies={["Java", "JavaFX", "UML", "Maven", "JUnit"]}
+        ghLink={"https://github.com/xyclose11/Paint"}
+      />
+
+      <ProjectShowcase
+        title="Reference Creation Web Application"
+        description="This was a project for a Full Stack Development course at Valparaiso University. The result of this project is a website that can handle citations in multiple formats.
+        This project was completed in 15 weeks in a group of 4 students. I was responsible for the citation generation process, user authentication, the parsing of the citation data, BibTex error handling, and more.
+        "
+        technologies={["React", "Node.js", "Next.js", "MongoDB", "HTML", "CSS", "TypeScript"]}
+        ghLink={"https://github.com/xyclose11/cashmoneycitations"}
+      >
+      </ProjectShowcase>
+      
       <ProjectShowcase
         title="Note-ify"
         description="A note taking app that allows users to create, edit, and delete notes. Also implemented
@@ -52,15 +73,7 @@ const Portfolio = () => {
         ghLink={"https://github.com/xyclose11/Notify"}
       />
 
-      <ProjectShowcase
-        title="Cash Money Citations"
-        description="This was a project for a Full Stack Development course at Valparaiso University. The result of this project is a website that can handle citations in multiple formats.
-        This project was completed in 15 weeks in a group of 4 students. I was responsible for the citation generation process, user authentication, the parsing of the citation data, BibTex error handling, and more.
-        "
-        technologies={["React", "Node.js", "Next.js", "MongoDB", "HTML", "CSS", "TypeScript"]}
-        ghLink={"https://github.com/xyclose11/cashmoneycitations"}
-      >
-      </ProjectShowcase>
+
 
       <ProjectShowcase 
       title="Auction Commerce Website"
@@ -77,11 +90,10 @@ const Portfolio = () => {
       >
       </ProjectShowcase>
 
-      <div style={{ background: "rgba(255,255,255,0.75)", boxShadow: "20px 20px 500px rgba(0,0,0,0.1)" }}>
-        <h2 style={{ textAlign: "center", paddingBottom: "20px" }}>Smaller Projects/In Progress</h2>
-      </div>
+      <h2 style={{ textAlign: "center", paddingBottom: "20px" }}>Smaller Projects/In Progress</h2>
 
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+
+      <div style={{ display: "flex", flexDirection: "row", paddingTop: "0rem" }}>
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title} style={{ backgroundColor: "#f5f5f5", boxShadow: "0 0 5px rgba(0,0,0,0.1)" }}>

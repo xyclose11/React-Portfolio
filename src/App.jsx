@@ -46,7 +46,7 @@ const App = () => {
       <Hero />
       <About />
       <Portfolio />
-      <Education />
+      {/* <Education /> */}
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
