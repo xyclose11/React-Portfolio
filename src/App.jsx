@@ -9,11 +9,11 @@ import React from "react";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
-import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 import Education from "./Components/Education";
 
 import "./styles.css";
+import Hero from "./Components/Hero";
 
 /**
  * This object represents your information. The project is set so that you
@@ -27,7 +27,7 @@ import "./styles.css";
 const siteProps = {
   name: "Harris Gustafson",
   title: "Full Stack Developer",
-  email: "Harris.Gustafson@outlook.com",
+  email: "Harris.Gustafson@valpo.edu",
   gitHub: "xyclose11",
   instagram: "",
   linkedIn: "harrisgustafson",
@@ -43,7 +43,7 @@ const App = () => {
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
+      <Hero />
       <About />
       <Portfolio />
       <Education />

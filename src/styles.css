@@ -1,7 +1,3 @@
-/**
-* CSS file to hold styles that apply across the application
-*/
-
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
 html,
@@ -12,8 +8,60 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
-  background: rgb(119,137,230);
-  background: linear-gradient(153deg, rgba(119,137,230,1) 5%, rgba(118,252,197,1) 100%);
+  background: rgb(238, 241, 255);
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+#hero {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero div {
+  margin: 10px 0;
+}
+
+.viewProject {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: all 0.3s ease; /* Add transition for all properties */
+  display: inline-block; /* Ensure the button is inline-block */
+  position: relative; /* Required for pseudo-element positioning */
+  overflow: hidden; /* Ensure the pseudo-element is contained */
+}
+
+.viewProject::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 100%;
+  background-color: #1d1d1d;
+  z-index: -1;
+  transition: left 0.3s ease;
+}
+
+.viewProject:hover::after {
+  left: 0;
+}
+
+.viewProject:hover {
+  color: white; /* Ensure text color remains white on hover */
 }
 
 html {
@@ -158,4 +206,22 @@ img.socialIcon {
     transform: translateX(0);
   }
   
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 20px 0;
 }
