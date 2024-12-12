@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../ProjectShowcase.css';
 
-const ProjectShowcase = ({ title, description, technologies, children, ghLink }) => {
+const ProjectShowcase = ({ title, description, technologies, children, ghLink, thumbNail }) => {
   return (
     <div className="project-showcase">
       <div className="project-details">

@@ -39,7 +39,7 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
 
 
-      <h2 style={{ textAlign: "center", paddingBottom: "20px" }}>Projects</h2>
+      <h2 className="text-3xl font-bold underline">Projects</h2>
 
       <ProjectShowcase
         title="Melin"
