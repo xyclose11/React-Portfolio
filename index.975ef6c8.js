@@ -27061,11 +27061,7 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/**
- * Application component
- *
- * To contain application wide settings, routes, state, etc.
- */ var _react = require("react");
+var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _about = require("./Components/About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
@@ -27078,15 +27074,7 @@ var _portfolioDefault = parcelHelpers.interopDefault(_portfolio);
 var _stylesCss = require("./styles.css");
 var _hero = require("./Components/Hero");
 var _heroDefault = parcelHelpers.interopDefault(_hero);
-/**
- * This object represents your information. The project is set so that you
- * only need to update these here, and values are passed a properties to the
- * components that need that information.
- *
- * Update the values below with your information.
- *
- * If you don't have one of the social sites listed, leave it as an empty string.
- */ const siteProps = {
+const siteProps = {
     name: "Harris Gustafson",
     title: "Full Stack Developer",
     email: "Harris.Gustafson@valpo.edu",
@@ -27105,22 +27093,17 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 44,
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _heroDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 45,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
-                fileName: "src/App.jsx",
-                lineNumber: 46,
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 47,
+                lineNumber: 32,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27129,13 +27112,13 @@ const App = ()=>{
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 49,
+                lineNumber: 33,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 43,
+        lineNumber: 28,
         columnNumber: 5
     }, undefined);
 };
@@ -28773,6 +28756,10 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _projectShowcase = require("./ProjectShowcase");
 var _projectShowcaseDefault = parcelHelpers.interopDefault(_projectShowcase);
+var _rotatePng = require("../images/Rotate.png");
+var _rotatePngDefault = parcelHelpers.interopDefault(_rotatePng);
+var _melinPng = require("../images/Melin.png");
+var _melinPngDefault = parcelHelpers.interopDefault(_melinPng);
 const projectList = [
     {
         title: "Portfolio Website",
@@ -28798,22 +28785,26 @@ const projectList = [
         title: "Interpreter written in Go",
         description: "Following the guide from the book 'Create an interpreter using Go' to learn more about interpreters and eventually create my own.",
         url: "https://github.com/xyclose11/Interpreter"
-    }
+    }, 
 ];
 const Portfolio = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "portfolio",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                style: {
-                    textAlign: "center",
-                    paddingBottom: "20px"
-                },
-                children: "Projects"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "justify-center flex-col items-center max-w-md mx-auto",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    className: "text-6xl text-white border-1 rounded-3xl bg-hero-bg p-4 hover:bg-cyan-700",
+                    children: "My Projects"
+                }, void 0, false, {
+                    fileName: "src/Components/Portfolio.jsx",
+                    lineNumber: 42,
+                    columnNumber: 9
+                }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 42,
+                lineNumber: 41,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
@@ -28835,17 +28826,49 @@ const Portfolio = ()=>{
                     "Swagger",
                     "XUnit",
                     "React Native",
-                    "Nginx"
+                    "Nginx", 
                 ],
-                ghLink: "https://github.com/xyclose11/Melin"
+                ghLink: "https://github.com/xyclose11/Melin",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("figure", {
+                        className: "relative max-w-full transition-all duration-300 cursor-pointer filter",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _melinPngDefault.default),
+                                alt: "Melin",
+                                className: "h-auto w-full shadow-xl rounded-t-3xl"
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 72,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("figcaption", {
+                                className: "absolute px-4 text-lg text-white bottom-6",
+                                children: "Paint"
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 73,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Portfolio.jsx",
+                        lineNumber: 71,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/Components/Portfolio.jsx",
+                    lineNumber: 70,
+                    columnNumber: 9
+                }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 44,
+                lineNumber: 47,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
                 title: "Pain(t)",
-                description: "My take on Microsoft paint. Which allows users to draw, erase, and save their drawings, alongside much more. This project was completed in 7 weeks for CS250: Object Oriented Programming at Valparaiso University.",
+                description: "Reimplementation of Microsoft paint. Users are able to draw, erase, and save their drawings, along with a multitude of image manipulation tools such as 'select', 'crop', and more. This project was completed in 7 weeks for CS250: Object Oriented Programming at Valparaiso University.",
                 technologies: [
                     "Java",
                     "JavaFX",
@@ -28853,15 +28876,47 @@ const Portfolio = ()=>{
                     "Maven",
                     "JUnit"
                 ],
-                ghLink: "https://github.com/xyclose11/Paint"
+                ghLink: "https://github.com/xyclose11/Paint",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("figure", {
+                        className: "relative max-w-full transition-all duration-300 cursor-pointer filter",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _rotatePngDefault.default),
+                                alt: "Melin",
+                                className: "h-auto w-full shadow-xl rounded-t-3xl"
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 86,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("figcaption", {
+                                className: "absolute px-4 text-lg text-white bottom-6",
+                                children: "Paint"
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 87,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Portfolio.jsx",
+                        lineNumber: 85,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/Components/Portfolio.jsx",
+                    lineNumber: 84,
+                    columnNumber: 9
+                }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 51,
+                lineNumber: 78,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
-                title: "Reference Creation Web Application",
-                description: "This was a project for a Full Stack Development course at Valparaiso University. The result of this project is a website that can handle citations in multiple formats. This project was completed in 15 weeks in a group of 4 students. I was responsible for the citation generation process, user authentication, the parsing of the citation data, BibTex error handling, and more. ",
+                title: "Citation Generator",
+                description: "A Full Stack application that will store and organize a users academic references. Can export into CSV, BibTex, CSL-JSON and over 10,000 citation styles. This project was completed in 15 weeks in a group of 4 students. I was responsible for the citation generation process, user authentication, the parsing of the citation data, BibTex error handling, and more. ",
                 technologies: [
                     "React",
                     "Node.js",
@@ -28874,7 +28929,7 @@ const Portfolio = ()=>{
                 ghLink: "https://github.com/xyclose11/cashmoneycitations"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 58,
+                lineNumber: 92,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
@@ -28888,12 +28943,12 @@ const Portfolio = ()=>{
                     "HTML",
                     "CSS",
                     "jQuery",
-                    "TypeScript"
+                    "TypeScript", 
                 ],
                 ghLink: "https://github.com/xyclose11/Notify"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 68,
+                lineNumber: 101,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
@@ -28908,7 +28963,7 @@ const Portfolio = ()=>{
                 ghLink: "https://github.com/xyclose11/cautious-eureka"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 78,
+                lineNumber: 118,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectShowcaseDefault.default), {
@@ -28924,7 +28979,7 @@ const Portfolio = ()=>{
                 ghLink: "https://www.youtube.com/watch?v=MAhIyux1Ia0"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 85,
+                lineNumber: 125,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -28935,7 +28990,7 @@ const Portfolio = ()=>{
                 children: "Smaller Projects/In Progress"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 93,
+                lineNumber: 132,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28964,12 +29019,12 @@ const Portfolio = ()=>{
                                         children: project.title
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 101,
+                                        lineNumber: 143,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 100,
+                                    lineNumber: 142,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28977,29 +29032,29 @@ const Portfolio = ()=>{
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 103,
+                                    lineNumber: 145,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 99,
+                            lineNumber: 137,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 97,
+                    lineNumber: 135,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 96,
+                lineNumber: 134,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 39,
+        lineNumber: 40,
         columnNumber: 5
     }, undefined);
 };
@@ -29013,7 +29068,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./ProjectShowcase":"7rZla","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7rZla":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./ProjectShowcase":"7rZla","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/Rotate.png":"bs6RW","../images/Melin.png":"n4pq0"}],"7rZla":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$470d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -29028,84 +29083,131 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _projectShowcaseCss = require("../ProjectShowcase.css");
+var _githubSvg = require("../images/socials/github.svg");
+var _githubSvgDefault = parcelHelpers.interopDefault(_githubSvg);
+const gradientPatterns = [
+    "from-hero-bg to-blue-500",
+    "from-hero-bg to-green-500",
+    "from-hero-bg to-yellow-500",
+    "from-hero-bg to-red-500",
+    "from-hero-bg to-indigo-500",
+    "from-hero-bg to-purple-500",
+    "from-hero-bg to-pink-500",
+    "from-hero-bg to-cyan-500",
+    "from-hero-bg to-rose-500",
+    "from-hero-bg to-emerald-500",
+    "from-hero-bg to-gray-500", 
+];
+const getRandomGradient = ()=>{
+    const randomIndex = Math.floor(Math.random() * gradientPatterns.length);
+    return gradientPatterns[randomIndex];
+};
 const ProjectShowcase = ({ title , description , technologies , children , ghLink  })=>{
+    const randomGradient = getRandomGradient();
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "project-showcase",
+        className: "project-showcase bg-white border-1 rounded-3xl",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "project-details",
+                className: "project-details p-4",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "mb-4 leading-none tracking-tight font-bold text-gray-800",
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/ProjectShowcase.jsx",
-                        lineNumber: 9,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "mb-3 text-gray-700",
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/ProjectShowcase.jsx",
-                        lineNumber: 10,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                        children: "Technologies Used:"
+                        className: "mb-2 text-4xl leading-none tracking-tight font-bold text-gray-800",
+                        children: "Crafted With"
                     }, void 0, false, {
                         fileName: "src/Components/ProjectShowcase.jsx",
-                        lineNumber: 11,
+                        lineNumber: 33,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        className: "flex flex-wrap gap-2 items-start justify-start text-gray-700",
                         children: technologies.map((tech, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "me-4 hover:underline md:me-6",
                                 children: tech
                             }, index, false, {
                                 fileName: "src/Components/ProjectShowcase.jsx",
-                                lineNumber: 14,
+                                lineNumber: 38,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/ProjectShowcase.jsx",
-                        lineNumber: 12,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/ProjectShowcase.jsx",
-                lineNumber: 8,
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "project-slideshow",
-                children: [
-                    children,
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
-                        className: "project-footer",
-                        children: ghLink && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: ghLink,
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            children: "More Info"
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "project-image bg-white border-1 rounded-3xl",
+                    children: [
+                        children || /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: "https://placehold.co/600x400/EEE/31343C?font=montserrat&text=Coming Soon...",
+                            alt: "Project",
+                            className: "rounded-t-3xl h-auto w-full shadow-xl"
                         }, void 0, false, {
                             fileName: "src/Components/ProjectShowcase.jsx",
-                            lineNumber: 22,
+                            lineNumber: 47,
                             columnNumber: 13
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: `bg-gradient-to-r ${randomGradient} hover:bg-gradient-to-r p-4 rounded-b-3xl flex justify-center items-center`,
+                            children: ghLink && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                className: "",
+                                href: ghLink,
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: (0, _githubSvgDefault.default),
+                                    alt: "GitHub",
+                                    className: "socialIcon"
+                                }, void 0, false, {
+                                    fileName: "src/Components/ProjectShowcase.jsx",
+                                    lineNumber: 58,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/Components/ProjectShowcase.jsx",
+                                lineNumber: 57,
+                                columnNumber: 15
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/Components/ProjectShowcase.jsx",
+                            lineNumber: 53,
+                            columnNumber: 11
                         }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/ProjectShowcase.jsx",
-                        lineNumber: 20,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/ProjectShowcase.jsx",
+                    lineNumber: 45,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
                 fileName: "src/Components/ProjectShowcase.jsx",
-                lineNumber: 18,
+                lineNumber: 44,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/ProjectShowcase.jsx",
-        lineNumber: 7,
+        lineNumber: 29,
         columnNumber: 5
     }, undefined);
 };
@@ -29126,7 +29228,13 @@ $RefreshReg$(_c, "ProjectShowcase");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../ProjectShowcase.css":"55xs9"}],"55xs9":[function() {},{}],"lW6qc":[function() {},{}],"8nGQG":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../ProjectShowcase.css":"55xs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/socials/github.svg":"vP2m6"}],"55xs9":[function() {},{}],"bs6RW":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Rotate.b061d3f8.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"n4pq0":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Melin.9004b0c6.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}],"8nGQG":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$3a87 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
