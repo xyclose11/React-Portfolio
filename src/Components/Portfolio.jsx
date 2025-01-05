@@ -129,7 +129,7 @@ const Portfolio = () => {
         ghLink={"https://www.youtube.com/watch?v=MAhIyux1Ia0"}
       ></ProjectShowcase>
 
-      <h2 style={{ textAlign: "center", paddingBottom: "20px" }}>Smaller Projects/In Progress</h2>
+      <h2 style={{ textAlign: "center", paddingBottom: "20px" }}>Smaller Projects</h2>
 
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "0rem" }}>
         <div
