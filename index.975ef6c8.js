@@ -28690,28 +28690,13 @@ const Header = ()=>{
             padding: "1rem",
             top: 0,
             width: "100%",
-            zIndex: 10
+            zIndex: 10,
+            backgroundColor: "white"
         },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#about",
-                children: "About"
-            }, void 0, false, {
-                fileName: "src/Components/Header.jsx",
-                lineNumber: 23,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#portfolio",
                 children: "Portfolio"
-            }, void 0, false, {
-                fileName: "src/Components/Header.jsx",
-                lineNumber: 24,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#education",
-                children: "Education"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
                 lineNumber: 25,
@@ -28722,7 +28707,7 @@ const Header = ()=>{
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 26,
+                lineNumber: 27,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28987,7 +28972,7 @@ const Portfolio = ()=>{
                     textAlign: "center",
                     paddingBottom: "20px"
                 },
-                children: "Smaller Projects/In Progress"
+                children: "Smaller Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
                 lineNumber: 132,
@@ -29001,6 +28986,11 @@ const Portfolio = ()=>{
                 },
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "container",
+                    style: {
+                        display: "flex",
+                        flexDirection: "row",
+                        flexWrap: "wrap , justifyContent: 'center'"
+                    },
                     children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "box",
                             style: {
@@ -29014,17 +29004,18 @@ const Portfolio = ()=>{
                                     rel: "noopener noreferrer",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                         style: {
-                                            flexBasis: "40px"
+                                            flexBasis: "40px",
+                                            fontWeight: "bold"
                                         },
                                         children: project.title
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 143,
+                                        lineNumber: 146,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 142,
+                                    lineNumber: 145,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29032,13 +29023,13 @@ const Portfolio = ()=>{
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 145,
+                                    lineNumber: 148,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 137,
+                            lineNumber: 140,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
@@ -29068,7 +29059,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./ProjectShowcase":"7rZla","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/Rotate.png":"bs6RW","../images/Melin.png":"n4pq0"}],"7rZla":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./ProjectShowcase":"7rZla","../images/Rotate.png":"bs6RW","../images/Melin.png":"n4pq0","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7rZla":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$470d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -29228,7 +29219,7 @@ $RefreshReg$(_c, "ProjectShowcase");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../ProjectShowcase.css":"55xs9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/socials/github.svg":"vP2m6"}],"55xs9":[function() {},{}],"bs6RW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../ProjectShowcase.css":"55xs9","../images/socials/github.svg":"vP2m6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"55xs9":[function() {},{}],"bs6RW":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Rotate.b061d3f8.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"n4pq0":[function(require,module,exports) {
