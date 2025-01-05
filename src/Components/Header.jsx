@@ -18,11 +18,12 @@ const Header = () => {
         top: 0,
         width: "100%",
         zIndex: 10,
+        backgroundColor: "white",
       }}
     >
-      <a href="#about">About</a>
+      {/* <a href="#about">About</a> */}
       <a href="#portfolio">Portfolio</a>
-      <a href="#education">Education</a>
+      {/* <a href="#education">Education</a> */}
       <a href="#footer">Contact</a>
     </nav>
   );
