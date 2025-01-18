@@ -28774,7 +28774,7 @@ const projectList = [
 ];
 const Portfolio = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "padding",
+        className: "padding ml-8 mr-8",
         id: "portfolio",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29242,6 +29242,7 @@ const Hero = ()=>{
         id: "hero",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "pt-32",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                     children: "Harris Gustafson"
                 }, void 0, false, {
@@ -29256,7 +29257,7 @@ const Hero = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: "Full-Stack Engineer"
+                    children: "Software Engineer"
                 }, void 0, false, {
                     fileName: "src/Components/Hero.jsx",
                     lineNumber: 10,
