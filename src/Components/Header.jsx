@@ -21,9 +21,8 @@ const Header = () => {
         backgroundColor: "white",
       }}
     >
-      {/* <a href="#about">About</a> */}
+      <a href="/">Harris Gustafson</a>
       <a href="#portfolio">Portfolio</a>
-      {/* <a href="#education">Education</a> */}
       <a href="#footer">Contact</a>
     </nav>
   );

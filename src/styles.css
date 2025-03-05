@@ -8,17 +8,15 @@ html,
 body {
   font-family: "Montserrat";
   height: 100%;
-  margin: 0;
   overflow-x: hidden;
   padding: 0;
-  width: 100%;
   background: rgb(238, 241, 255);
   scroll-behavior: smooth; /* Enable smooth scrolling */
 }
 
 #hero {
   font-family: "Montserrat";
-  background-color: #4a90e2;
+  background-color: #4E567E;
   color: white;
   text-align: center;
   padding: 100px 20px;
@@ -27,10 +25,16 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
 
 #hero div {
   margin: 10px 0;
+}
+
+#mywork {
+  color: #FFFFFF;
+  background-color: #4E567E;
 }
 
 .viewProject {
@@ -76,12 +80,10 @@ html {
 div#main {
   display: flex;
   flex-direction: column;
-  width: 100vw;
 }
 
 section {
   position: relative;
-  width: 100vw;
 }
 
 section.min-height {
@@ -90,6 +92,11 @@ section.min-height {
 
 section.padding {
   padding: 5rem 0;
+}
+
+#maincontent {
+  margin: auto;
+  max-width: 1100px;
 }
 
 section img.background {

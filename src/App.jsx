@@ -27,10 +27,13 @@ const App = () => {
   return (
     <div id="main">
       <Header />
-      <Hero />
-      {/* <About /> */}
-      <Portfolio />
+
+      <div id="maincontent">
+        <Hero />
+        <Portfolio />
+      </div>
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
+
     </div>
   );
 };

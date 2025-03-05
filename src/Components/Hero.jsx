@@ -7,12 +7,10 @@ const Hero = () => {
         <h1>Harris Gustafson</h1>
       </div>
       <div>
-        <p>Full-Stack Engineer</p>
+        <h3>Software Engineer</h3>
       </div>
       <div>
-        <a className="viewProject" href="#portfolio">
-          View Projects
-        </a>
+        <h5>Translating ideas into solutions to common problems.</h5>
       </div>
     </section>
   );
